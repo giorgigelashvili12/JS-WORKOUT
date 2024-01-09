@@ -1,0 +1,23 @@
+// 1. let 2. cosnt 3.
+// 1st way to create variables: ley
+let message = 'hello';
+console.log(message);
+// possible to change value
+
+// 2nd way: const
+const variable2 = 3;
+// const makes variable easier to understand
+// variable2 = 5; 
+// Can't change value -> Error
+const calculation = 2 + 2;
+console.log(calculation);
+
+// 3rd way: var = variable
+var variable3 = 3;
+// var has errors, so dont use it 
+
+// use const by default
+// if changing a variable use let
+
+console.log(typeof 3);
+// console: number
